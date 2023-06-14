@@ -1,0 +1,256 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lobster', sans-serif;
+  background: linear-gradient(to bottom, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #8a2be2);
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Estilos de la barra de navegación */
+header {
+  background-color: #1a1a1a;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a:hover {
+  color: #ff4081;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.logo img:hover,
+.redes-sociales img:hover {
+  transform: scale(1.2);
+}
+
+/* Estilos de la sección de hero */
+.hero {
+  
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+  font-size: 72px; /* Ajusta el tamaño de fuente según tu preferencia */
+
+}
+
+.hero p {
+    font-size: 36px; /* Ajusta el tamaño de fuente según tu preferencia */
+
+}
+
+/* Estilos de la sección de productos */
+.productos {
+    
+
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Resto de los estilos */
+
+.producto {
+  position: relative;
+  text-align: center;
+  margin: 20px;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+width: 250px;
+}
+
+.producto img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.producto h2 {
+  margin: 10px 0;
+  color: #fff;
+}
+
+.precio {
+  color: #ff4081;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.producto:hover {
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.producto:hover img {
+  filter: brightness(150%);
+}
+
+
+/* Estilos de la sección de redes sociales */
+.redes-sociales {
+  text-align: center;
+  padding: 20px;
+}
+
+.redes-sociales img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+/* Estilos de la sección de participantes */
+.participantes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff; /* Color de las letras */
+}
+
+.fila {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+gap: 30px;
+}
+
+.participante {
+  margin: 0 10px 20px;
+  border: 2px solid #000;
+  padding: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.participante:hover {
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4);
+filter: brightness(150%);
+}
+.participante1 {
+width: 300px;
+  height: 350px;
+  background-color: #30C43B ;
+  
+
+
+}
+
+.participante2 {
+width: 300px;
+  height: 350px;
+background-color: #282EE3;
+  
+}
+
+.participante3 {
+width: 300px;
+  height: 350px;
+background-color: #861FD1;
+  
+}
+
+.participante4 {
+width: 300px;
+  height: 350px;
+background-color: #ff4081 ;
+  
+}
+
+.participante5 {
+width: 300px;
+  height: 350px;
+  background-color: #DC1414;
+}
+
+
+.participante img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.info-participante h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-participante p {
+  font-size: 16px;
+}
+
+/* Estilos de la sección de contacto */
+.contacto {
+  text-align: center;
+  padding: 75px 0;
+color: #fff;
+}
+
+.contacto h2 {
+  margin-bottom: 5px;
+  font-size: 36px;
+}
+
+.informacion {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  padding: 0 50px
+} 
+
+.item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.item p {
+  font-size: 16px;
+
+
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+}
